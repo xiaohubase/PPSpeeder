@@ -508,7 +508,7 @@ BOOL CPPSpeederDlg::OnCommand(WPARAM wParam, LPARAM lParam)
 
 void CPPSpeederDlg::OnStnClickedStatictip()
 {
-	ShellExecute(NULL, TEXT("Open"), VMProtectDecryptStringW(TEXT("http://shang.qq.com/wpa/qunwpa?idkey=ae52f680531b5275ee4b488497b2e59a6154f1d23a706e85c6acb4d30f21b4c1")), NULL, NULL, SW_HIDE);
+	ShellExecute(NULL, TEXT("Open"), VMProtectDecryptStringW(TEXT("https://github.com/xiaohubase/PPSpeeder")), NULL, NULL, SW_HIDE);
 
 	// TODO:  在此添加控件通知处理程序代码
 }
